@@ -42,7 +42,6 @@ li {
     display: inline-block;
 }
 
-
 .left {
     float: left;
 }
@@ -60,6 +59,11 @@ img {
 
 form {
     display: inline-block;
+}
+
+.search-bar input {
+    height: 34px;
+    width: 527px;
 }
 
 footer {
