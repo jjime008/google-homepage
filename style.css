@@ -66,8 +66,26 @@ form {
     width: 527px;
 }
 
+.buttons {
+    margin: 27px;
+    z-index: 1;
+}
+
+.buttons input {
+    background: #f8f8f8;
+    margin: 0px 15px; 
+    height: 36px;
+    width: 125px;
+    border: 1px solid #c6c6c6;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    /*color: #222;*/
+}
+
 footer {
     position: absolute;
+    z-index: -1;
     left: 0;
     right: 0;
     bottom: 0;
